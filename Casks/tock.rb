@@ -1,6 +1,6 @@
 cask "tock" do
-  version "1.2.1"
-  sha256 "218225cbdaabb94b17af5d9a9c6f68402d2e1d6a95bf780c70ca745da66f3195"
+  version "1.3.0"
+  sha256 "4ada512c9ce2f2ada71f5b941a72e356a54d49b839a9ceaf73bc7b6e25a71b12"
 
   url "https://github.com/lognseth/tock/releases/download/v#{version}/Tock-#{version}.dmg"
   name "Tock"
@@ -13,7 +13,7 @@ cask "tock" do
   end
 
   auto_updates true
-  depends_on macos: :sonoma
+  depends_on macos: :tahoe
 
   app "Tock.app"
 
